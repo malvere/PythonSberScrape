@@ -53,7 +53,11 @@ Provide instructions on how to get started with your project.
     ```bash
     pip install -r requirements.txt
     ```
-4. Запустите скрипт:
+5. Установить браузер для PlayWright:
+    ```bash
+    playwright install webkit
+    ```
+6. Запустите скрипт:
     ```bash
     python main.py
     ```
@@ -64,5 +68,7 @@ Provide instructions on how to get started with your project.
 ```python
 url = 'https://megamarket.ru/catalog/smartfony-android/'
 ```
+
+
 
 
