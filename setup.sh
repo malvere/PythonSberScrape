@@ -1,3 +1,3 @@
 poetry install
-playwright install webkit
+playwright install --with-deps webkit
 python asnc.py
