@@ -6,12 +6,15 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11, <3.13"
 requests = "^2.31.0"
 httpx = "^0.25.0"
 beautifulsoup4 = "^4.12.2"
 playwright = "^1.38.0"
 ipykernel = "^6.25.2"
+py2app = "^0.28.6"
+psycopg2 = "^2.9.9"
+python-dotenv = "^1.0.0"
 
 
 [build-system]

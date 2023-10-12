@@ -1,0 +1,9 @@
+build/*
+dist/*
+*.spec
+test.py
+test.py
+__pycache__/config.cpython-311.pyc
+__pycache__/db.cpython-311.pyc
+__pycache__/reg_decode.cpython-311.pyc
+.vscode/settings.json
