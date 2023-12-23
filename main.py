@@ -13,7 +13,7 @@ with sync_playwright() as p:
     print(page.title())
     mobs = page.query_selector_all('.item-block')
     sleep(3)
-    # browser.close()
+   
 
 
 
